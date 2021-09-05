@@ -33,11 +33,6 @@ public class Deck {
         }
         Collections.shuffle(card);
     }
-//    public void DisplayCardlist() {
-//        for (Card s : this.card) {
-//            System.out.println(s.getCategory() + s.getNum());
-//        }
-//    }
 
     public Card Draw(){
         return this.card.get(0);
